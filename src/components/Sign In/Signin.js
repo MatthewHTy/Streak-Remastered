@@ -22,7 +22,7 @@ function Signin() {
           <h1 className="welcome-text">Welcome to Streak</h1>
         </div>
         <div className="sign-in_container">
-          <p className="start-p">Start your Streak.</p>
+          <p className="start-p">Start your Streak</p>
           <input
             type="text"
             className="sign-in_textBox"

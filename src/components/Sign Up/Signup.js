@@ -26,6 +26,7 @@ function Signup() {
     return (
       <div className="sign-up">
         <div className="sign-up_container">
+            <p className="streak-awaits">Your Streak Awaits</p>
           <input
             type="text"
             className="sign-up_textBox"

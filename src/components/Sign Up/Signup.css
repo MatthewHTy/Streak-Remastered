@@ -9,8 +9,10 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: #dcdcdc;
+    background-color: #000000;
     padding: 30px;
+    width: 40%;
+    opacity: 70%;
   }
   .sign-up_textBox {
     padding: 10px;
@@ -23,11 +25,31 @@
     margin-bottom: 10px;
     border: none;
     color: white;
-    background-color: black;
+    background-color: rgb(15, 180, 185);
   }
   .sign-up_google {
-    background-color: #19809F;
+    background-color: #ee0000;
   }
   .sign-up div {
     margin-top: 7px;
+  }
+
+  .streak-awaits {
+      padding-bottom: 35px; 
+  }
+
+  @media only screen and (max-width: 900px) {
+      .sign-up {
+          height: 100vh;
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          position: absolute;
+      }
+
+      .sign-up div {
+          display: flex;
+          min-width: 100%;
+          justify-content: center;
+      }
   }
