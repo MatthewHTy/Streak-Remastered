@@ -41,14 +41,34 @@
     margin-top: 7px;
   }
   
+  /* .welcome-to-streak-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #000000;
+    padding: 30px;
+    width: 100%;
+    justify-content: space-around;
+    opacity: 10%;
+  } */
+
   .welcome-to-streak {
     padding: 110px;
     white-space: normal;
+    /* display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #7e7e7e;
+    padding: 30px;
+    width: 40%;
+    justify-content: space-around; */
+    
   }
   
   .welcome-text {
     font-size: 50px;
   }
+  
   
 .start-p {
     padding-bottom: 35px;

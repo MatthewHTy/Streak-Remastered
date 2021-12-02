@@ -19,7 +19,9 @@ function Signin() {
     return (
       <div className="sign-in">
         <div className="welcome-to-streak">
+        {/* <div className="welcome-to-streak-container"> */}
           <h1 className="welcome-text">Welcome to Streak</h1>
+        {/* </div> */}
         </div>
         <div className="sign-in_container">
           <p className="start-p">Start your Streak</p>
