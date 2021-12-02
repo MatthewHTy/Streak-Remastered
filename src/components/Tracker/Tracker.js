@@ -1,3 +1,4 @@
+import "./Tracker.css";
 
 function Tracker() {
 

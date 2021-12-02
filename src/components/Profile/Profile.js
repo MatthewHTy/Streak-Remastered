@@ -1,3 +1,4 @@
+import "./Profile.css";
 
 function Profile() {
 

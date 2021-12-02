@@ -1,7 +1,8 @@
+import "./Signin.css";
 
 function Signin() {
     return (
-        <div>Streak Remastered</div>
+        <div className="sm">Streak Remastered</div>
     )
 };
 

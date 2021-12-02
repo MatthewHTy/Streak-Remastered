@@ -1,3 +1,4 @@
+import "./WorkoutPlans.css";
 
 function WorkoutPlans() {
 
