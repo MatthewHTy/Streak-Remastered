@@ -33,10 +33,12 @@
 
   .sign-up-text-color {
       color:white;
+      min-width: 100%;
   }
 
   .sign-in-text-color {
-      color: white;
+      color:white;
+      min-width: 100%;
   }
 
   @media only screen and (max-width: 900px) {
@@ -53,4 +55,16 @@
         min-width: 100%;
         justify-content: center;
     }
+
+    .sign-up-text-color {
+      display: flex;
+      flex-wrap: wrap;
+      color: white;
+    }
+
+    .sign-in-text-color {
+      display: flex;
+      flex-wrap: wrap;
+      color: white;
+  }
 }

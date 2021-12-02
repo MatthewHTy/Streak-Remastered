@@ -31,10 +31,10 @@ function Reset() {
           Send password reset email
         </button>
         <div className="sign-up-text-color">
-          Don't have an account? <Link to="/signup">Register</Link> now.
+          Don't have an account? <Link to="/signup"> Sign Up</Link> 
         </div>
         <div className="sign-in-text-color">
-          Already have an account? <Link to="/">Click to Sign In</Link>
+          Already have an account? <Link to="/"> Click to Sign In</Link>
         </div>
       </div>
     </div>
