@@ -9,9 +9,6 @@ import Dashboard from "./components/Dashboard/Dashboard";
 function App() {
   return (
     <div>
-      <div>
-      <h1 className="streak-h1">Streak</h1>
-      </div>
       <Router>
         <Switch>
           <Route exact path="/" component={Signin} />

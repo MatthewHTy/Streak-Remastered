@@ -1,33 +1,82 @@
 .sign-in {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
   }
+  
   .sign-in_container {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: #dcdcdc;
+    background-color: #000000;
     padding: 30px;
+    width: 40%;
+    justify-content: space-around;
+    opacity: 70%;
   }
+  
   .sign-in_textBox {
     padding: 10px;
     font-size: 18px;
     margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
   }
+  
   .sign-in_btn {
     padding: 10px;
     font-size: 18px;
     margin-bottom: 10px;
     border: none;
     color: white;
-    background-color: black;
+    background-color: rgb(109, 62, 55);
   }
+  
   .sign-in_google {
-    background-color: #4285f4;
+    background-color: #ee0000;
   }
+  
   .sign-in div {
     margin-top: 7px;
+  }
+  
+  .welcome-to-streak {
+    padding: 110px;
+  }
+  
+  .welcome-text {
+    font-size: 50px;
+  }
+  
+.start-p {
+    padding-bottom: 35px;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+  @media only screen and (max-width: 1200px) {
+    .welcome-to-streak {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      padding: 150px;
+    }
+    .sign-in {
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      position: absolute;
+      padding-bottom: 300px;
+    }
+
+    .sign-in div {
+      display: flex;
+      min-width: 80%;
+      justify-content: center;
+    }
+
   }
