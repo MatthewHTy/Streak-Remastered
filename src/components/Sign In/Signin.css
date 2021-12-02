@@ -1,23 +1,23 @@
-.login {
+.sign-in {
     height: 100vh;
     width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .login__container {
+  .sign-in_container {
     display: flex;
     flex-direction: column;
     text-align: center;
     background-color: #dcdcdc;
     padding: 30px;
   }
-  .login__textBox {
+  .sign-in_textBox {
     padding: 10px;
     font-size: 18px;
     margin-bottom: 10px;
   }
-  .login__btn {
+  .sign-in_btn {
     padding: 10px;
     font-size: 18px;
     margin-bottom: 10px;
@@ -25,9 +25,9 @@
     color: white;
     background-color: black;
   }
-  .login__google {
+  .sign-in_google {
     background-color: #4285f4;
   }
-  .login div {
+  .sign-in div {
     margin-top: 7px;
   }

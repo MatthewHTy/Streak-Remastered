@@ -17,29 +17,29 @@ function Signin() {
       if (user) history.replace("/dashboard");
     }, [user, loading]);
     return (
-      <div className="login">
-        <div className="login__container">
+      <div className="sign-in">
+        <div className="sign-in_container">
           <input
             type="text"
-            className="login__textBox"
+            className="sign-in_textBox"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             placeholder="E-mail Address"
           />
           <input
             type="password"
-            className="login__textBox"
+            className="sign-in_textBox"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             placeholder="Password"
           />
           <button
-            className="login__btn"
+            className="sign-in_btn"
             onClick={() => signInWithEmailAndPassword(email, password)}
           >
             Login
           </button>
-          <button className="login__btn login__google" onClick={signInWithGoogle}>
+          <button className="sign-in_btn sign-in_google" onClick={signInWithGoogle}>
             Login with Google
           </button>
           <div>
