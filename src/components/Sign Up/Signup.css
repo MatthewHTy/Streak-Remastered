@@ -38,6 +38,9 @@
       padding-bottom: 35px; 
   }
 
+  .have-an-account {
+      color: white;
+  }
   @media only screen and (max-width: 900px) {
       .sign-up {
           height: 100vh;

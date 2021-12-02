@@ -57,7 +57,7 @@ function Signup() {
           >
             Register with Google
           </button>
-          <div>
+          <div className="have-an-account">
             Already have an account? <Link to="/">Sign In</Link>
           </div>
         </div>
