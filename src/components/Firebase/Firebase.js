@@ -109,3 +109,14 @@ const signInWithEmailAndPassword = async ( email, password) => {
         console.error(error)
       }
   }
+
+  export {
+    auth,
+    db,
+    signInWithGoogle,
+    signInWithEmailAndPassword,
+    registerWithEmailAndPassword,
+    sendPasswordResetEmail,
+    logout,
+    gituser
+  };
