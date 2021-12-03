@@ -30,6 +30,32 @@ a {
     list-style: none;
 }
 
+.hamburger {
+    display: none;
+    
+}
+
+@media only screen and (max-width: 750px) {
+
+.hamburger {
+    display: flex;
+    border: 0;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    margin: 500px;
+    justify-content: flex-end;
+
+}
+
+.ul-list-bar {
+    display: none;
+}
+
+
+}
+
+
 /* ul {
     display: flex;
     list-style-type: none;

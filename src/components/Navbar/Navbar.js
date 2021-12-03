@@ -25,6 +25,9 @@ return (
                     <Link style={{ textDecoration: 'none'}} to="/profile">Profile</Link>
                 </li>
             </ul>    
+            <button className="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
       </div>
     </nav>
         
