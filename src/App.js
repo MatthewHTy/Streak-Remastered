@@ -9,7 +9,7 @@ import Reset from "./components/Reset/Reset";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Router>
         <Switch>
           <Route exact path="/" component={Signin} />

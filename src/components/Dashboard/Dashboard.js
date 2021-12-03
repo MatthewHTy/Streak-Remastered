@@ -5,7 +5,7 @@ import "./Dashboard.css";
 
 function Dashboard() {
     return (
-        <div className="dashboard-container">Dashboard
+        <div className="dashboard-container">
         <Navbar />
         </div>
     )
