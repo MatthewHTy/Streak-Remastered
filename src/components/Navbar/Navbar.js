@@ -1,38 +1,51 @@
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import React, { useState } from "react";
+import Dropdown from "../Dropdown/Dropdown";
 
 function Navbar() {
 
-return (
-    <nav>
-        <div className="react-icon">
-               <Link style={{ textDecoration: 'none'}} to="/dashboard">Streak</Link>
-            <i class="fab fa-react" alt="Streak-Logo">
-            </i>
-        </div>
-        <div className="nav-list">
-            <ul className="ul-list-bar"id="ul-list">
-                <li>
-                    <Link style={{ textDecoration: 'none'}} to="/workoutplans">Workouts</Link>
-                </li>
-                <li>
-                    <Link style={{ textDecoration: 'none'}} to="/workoutplanner">Planner</Link>
-                </li>
-                <li>
-                    <Link style={{ textDecoration: 'none'}} to="/tracker">Tracker</Link>
-                </li>
-                <li>
-                    <Link style={{ textDecoration: 'none'}} to="/profile">Profile</Link>
-                </li>
-            </ul>    
-            <button className="hamburger" id="hamburger">
-                <i class="fas fa-bars"></i>
-            </button>
-      </div>
-    </nav>
-        
-)
+    const [click, setClick] = useState(false);
+    const [dropdown, setDropdown] = useState(false);
 
+    const handleClick = () => setClick(!click)
+    const closeMobileMenu = () => setClick(false);
+
+return (
+
+    <nav className="navbar">
+        <Link to="/dashboard" className="navbar-logo">
+            Streak <i class="fab fa-react" />
+        </Link>
+    <div className="menu-icon" onClick={handleClick}>
+        <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+    </div>
+    <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+        <li className="nav-item">
+            <Link to="/workoutplans" className="nav-links" onClick={closeMobileMenu}>
+                Workouts
+            </Link>
+        </li>
+        <li className="nav-item">
+            <Link to="/workoutplanner" className="nav-links" onClick={closeMobileMenu}>
+                Planner
+            </Link>
+            {dropdown && <Dropdown />}
+        </li>
+        <li className="nav-item">
+            <Link to="/tracker" className="nav-links" onClick={closeMobileMenu}>
+                Tracker
+            </Link>
+        </li>
+        <li className="nav-item">
+            <Link to="/profile" className="nav-links" onClick={closeMobileMenu}>
+                Profile
+            </Link>
+        </li>
+    </ul>
+    </nav>
+       
+    )
 }
 
 export default Navbar;
