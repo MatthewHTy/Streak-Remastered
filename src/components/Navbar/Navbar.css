@@ -16,6 +16,12 @@
   font-size: 2rem;
 }
 
+.navbar-logo:hover {
+  background-color: #646668;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+}
+
 .fa-firstdraft {
   margin-left: 0.5rem;
   font-size: 1.6rem;
