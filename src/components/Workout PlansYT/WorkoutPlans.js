@@ -1,10 +1,10 @@
 import "./WorkoutPlans.css";
-import Navbar from "../Navbar/Navbar";
+// import Navbar from "../Navbar/Navbar";
 
 function WorkoutPlans() {
     return (
         <div>
-            <Navbar />
+            <h1>Choose Your Plan</h1>
         </div>
     )
 

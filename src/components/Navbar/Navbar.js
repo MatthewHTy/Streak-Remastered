@@ -42,11 +42,6 @@ return (
                 Profile
             </Link>
         </li>
-        {/* <li className="nav-item">
-            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                Profile
-            </Link>
-        </li> */}
     </ul>
     </nav>
        
