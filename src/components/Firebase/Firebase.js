@@ -96,9 +96,9 @@ const signInWithEmailAndPassword = async ( email, password) => {
             name: doc.data().name,
             email: doc.data().email,
             uid: doc.data().uid,
+            likedWorkouts: doc.data().likeWorkouts,
             tracker: doc.data().tracker,
             planner: doc.data().planner,
-            likedWorkouts: doc.data().likeWorkouts,
             highscore: doc.data().highscore
           }
         })
@@ -116,5 +116,5 @@ const signInWithEmailAndPassword = async ( email, password) => {
     registerWithEmailAndPassword,
     sendPasswordResetEmail,
     logout,
-    gituser
+    gituser,
   };
