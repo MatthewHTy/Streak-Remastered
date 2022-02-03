@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 import React, { useState } from "react";
 import Dropdown from "../Dropdown/Dropdown";
+import { logout } from "../Firebase/firebase";
 
 function Navbar() {
 
@@ -41,6 +42,11 @@ return (
             <Link to="/profile" className="nav-links" onClick={closeMobileMenu}>
                 Profile
             </Link>
+        </li>
+        <li className="nav-item">
+            <div className="sign-out">
+                <a className="nav-links"href="/" onClick={logout}>Sign Out</a>
+            </div>
         </li>
     </ul>
     </nav>

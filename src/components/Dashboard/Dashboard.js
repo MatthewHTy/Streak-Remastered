@@ -7,7 +7,6 @@ import WorkoutPlans from "../Workout PlansYT/WorkoutPlans";
 import WorkoutPlanner from "../Workout Planner/WorkoutPlanner";
 import Navbar from "../Navbar/Navbar";
 import "./Dashboard.css";
-import { logout } from "../Firebase/firebase";
 
 function Dashboard() {
     return (
@@ -22,9 +21,6 @@ function Dashboard() {
         {/* <Route path='/' component={SignOut} /> */}
       </Switch>
     </Router>
-    <div className="sign-out">
-      <a className="sign-out-btn"href="/" onClick={logout}>Sign Out</a>
-    </div>
     </div>
      
     )
