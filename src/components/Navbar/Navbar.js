@@ -44,9 +44,7 @@ return (
             </Link>
         </li>
         <li className="nav-item">
-            <div className="sign-out">
-                <a className="nav-links"href="/" onClick={logout}>Sign Out</a>
-            </div>
+                <a className="nav-links" href="/" onClick={logout}>Sign Out</a>
         </li>
     </ul>
     </nav>
