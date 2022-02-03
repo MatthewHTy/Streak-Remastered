@@ -22,12 +22,12 @@ return (
     </div>
     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
         <li className="nav-item">
-            <Link to="/workoutplans" className="nav-links" onClick={closeMobileMenu}>
+            <Link to="/workout-plans" className="nav-links" onClick={closeMobileMenu}>
                 Workouts
             </Link>
         </li>
         <li className="nav-item">
-            <Link to="/workoutplanner" className="nav-links" onClick={closeMobileMenu}>
+            <Link to="/workout-planner" className="nav-links" onClick={closeMobileMenu}>
                 Planner
             </Link>
             {dropdown && <Dropdown />}

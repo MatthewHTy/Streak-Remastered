@@ -15,8 +15,8 @@ function Dashboard() {
     <Router>
       <Navbar />
       <Switch>
-        <Route exact path='/workoutplans' component={WorkoutPlans} />
-        <Route exact path='/workoutplanner' component={WorkoutPlanner} />
+        <Route exact path='/workout-plans' component={WorkoutPlans} />
+        <Route exact path='/workout-planner' component={WorkoutPlanner} />
         <Route exact path='/tracker' component={Tracker} />
         <Route exact path='/profile' component={Profile} />
         {/* <Route path='/' component={SignOut} /> */}
