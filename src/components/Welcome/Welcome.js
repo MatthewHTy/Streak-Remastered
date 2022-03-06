@@ -33,7 +33,7 @@ function MainContent() {
     return (
   
       <div className="welcome-user">
-        <h1>Welcome, {userdata.name}</h1>
+        <h1>Welcome, {userdata.name} to Streak</h1>
       </div>
   )
   };
