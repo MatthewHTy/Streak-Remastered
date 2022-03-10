@@ -3,7 +3,7 @@ import "./Home.css"
 function Home() {
 
     return(
-        <h1>Streak Remastered</h1>
+        <h1>How It Works</h1>
     );
 };
 

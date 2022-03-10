@@ -10,7 +10,7 @@ function Profile() {
     const history = useHistory();
   
     const [userdata, setuserdata] = useState({
-      name: 'User',
+      name: '',
       email: 'email',
       uid: '0',
       tracker: 0,
